@@ -1,0 +1,51 @@
+<head>
+
+  <!--HHH———HHH——EEEEEEEEE——LLL————————LLL—————————OOOOOOO—-->
+  <!--HHH———HHH——EEE————————LLL————————LLL————————OOO———OOO-->
+  <!--HHHHHHHHH——EEEEEE—————LLL————————LLL————————OOO———OOO-->
+  <!--HHH———HHH——EEE————————LLL————————LLL————————OOO———OOO-->
+  <!--HHH———HHH——EEEEEEEEE——LLLLLLLLL——LLLLLLLLL———OOOOOOO—-->
+
+  <!--
+
+    + WEBSITE CREDITS
+
+    + Design, Development by John Choura Jr. in 2017
+
+    + Frameworks and Technologies Used
+      solid.1.6.0
+      jquery-2.1.4
+
+    -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/img/favicon.ico"/>
+  <meta name="theme-color" content="#e55033">
+
+  <title>{{site.title}} > {{page.title}}</title>
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@JohnChouraJr">
+  <meta name="twitter:title" content="{{site.title}}" />
+  <meta name="twitter:description" content="{{site.description}}">
+  <meta name="twitter:image" content="{{ "/img/twitter-card.jpg" | prepend: site.baseurl }}" />
+  <meta property="og:title" content="{{site.title}}" />
+  <meta property="og:description" content="{{site.description}}" />
+  <meta property="og:type" content="summary" />
+  <meta property="og:url" content="{{permalink}}" />
+  <meta property="og:image" content="{{ "/img/twitter-card.jpg" | prepend: site.baseurl }}" />
+  <meta name="google-site-verification" content="A2QZkbiNcO36PZ2ALwVrqnmQshrlkt5qRnQ_pXCJoNY" />
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
+  <script src="{{ "/js/jquery-2.1.4.js" | prepend: site.baseurl }}"></script>
+
+</head>

@@ -1,0 +1,34 @@
+<header class="nav-header">
+  <nav class="nav-max nav-down">
+    <div class="wrapper">
+      <div class="gutters">
+        <div class="col xs-col-12 md-col-8 md-offset-2">
+          <div class="col xs-col-3 md-col-4 lg-col-5">
+            <a class="{% if p.url == page.url %} active{% endif %} nav-ring nav-logo-size " href="/">
+              <div class="nav-logo-size nav-ring__outer nav-ring__outer--rotate">
+                <img src="/assets/fs-logo-outer-ring.svg" >
+              </div>
+              <div class="nav-logo-size nav-ring__inner">
+                <h1>💩</h1>
+              </div>
+            </a>
+          </div>
+          <div class="col xs-col-5 xs-offset-4 md-col-5 md-offset-3 lg-col-4 lg-offset-3">
+            <div class="nav-items">
+              {% assign pages = site.pages | sort:"weight"  %}
+              {% for p in pages %}
+                {% if  p.hide == true %}
+                {% else %}
+                  {% if p.title %}
+                  <a class="{% if p.url == page.url %} active{% endif %}" href="{{ p.url | prepend: site.baseurl }}"><h2>{{ p.title }}</h2></a>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+</header>

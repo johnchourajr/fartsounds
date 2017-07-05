@@ -1,0 +1,161 @@
+.nav-header {
+  // position: fixed;
+  // width: 100%;
+  // z-index: 9999;
+}
+
+.nav-logo-size {
+  width: $nav-size-base;
+  height: $nav-size-base;
+
+  @include media-query(sm) {
+    width: $nav-size-sm;
+    height: $nav-size-sm;
+  }
+
+  @include media-query(md) {
+    width: $nav-size-md;
+    height: $nav-size-md;
+  }
+
+  @include media-query(lg) {
+    width: $nav-size-lg;
+    height: $nav-size-lg;
+  }
+}
+
+.nav-ring {
+  position: relative;
+  transform: translateY(-#{$nav-v-offset});
+  display: block;
+}
+
+.nav-ring__outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &--rotate {
+    animation: rotation 25s infinite linear;
+  }
+}
+
+.nav-ring__inner {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 6em;
+  }
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+.nav-down {
+  .nav-items {
+    opacity: 1;
+  }
+
+}
+.nav-up {
+  // margin-top: -6rem;
+  transition: margin-top .5s $easeOutCubic;
+
+  @include media-query(sm) {
+    margin-top: 0;
+  }
+
+  .nav-items {
+    opacity: 0;
+  }
+
+  .logo {
+    opacity: 0;
+    transition: opacity .5s $easeOutCubic;
+
+    @include media-query(sm) {
+      opacity: 1;
+    }
+  }
+}
+// .nav-max {
+//   transition: all .5s $easeOutCubic;
+//   // padding-top: -$space-sm;
+//   @include media-query(md) {
+//     // padding-top: -$space-md;
+//   }
+// }
+// .nav-min {
+//   transition: all .5s $easeOutCubic;
+//   // margin-top: -($space-sm * .5);
+//   @include media-query(md) {
+//     // margin-top: -($space-sm * 1);
+//   }
+// }
+
+nav {
+  transition: all .5s $easeOutCubic;
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: opacity .25s $easeOutCubic, margin-top .75s $easeOutCubic;
+    height: #{$nav-size-base - $nav-v-offset};
+
+    @include media-query(sm) {
+      height: #{$nav-size-sm - $nav-v-offset};
+    }
+
+    @include media-query(md) {
+      height: #{$nav-size-md - $nav-v-offset};
+    }
+
+    @include media-query(lg) {
+      height: #{$nav-size-lg - $nav-v-offset};
+    }
+
+    a {
+      padding: 1em 0;
+      margin-left: 3.125em;
+      display: inline-block;
+
+      @include media-query(sm) {
+        padding: .65em 0;
+        margin-left: 6.25em;
+      }
+
+      &.active {
+        opacity: .3;
+      }
+
+      &>* {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &:hover {
+    .nav-items {
+      opacity: 1 !important;
+    }
+  }
+}

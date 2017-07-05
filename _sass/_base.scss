@@ -1,0 +1,40 @@
+body {
+  background-color: #3BFFD2;
+}
+
+a {
+  color: $fill-black;
+
+  &:not(.no-rainbow) {
+    &:hover {
+      color: #F452FF;
+      animation: hoverAnimation 1s linear infinite;
+    }
+  }
+
+  &:visited {
+    color: $fill-black !important;
+  }
+}
+
+@keyframes hoverAnimation {
+  0% {color: #F452FF;}
+  33%  {color: #3BFFD2;}
+  66%   {color: #FFFF00;}
+}
+
+.doc {
+  min-height: 100vh;
+  background-color: #FFFFEC;
+  z-index: 1;
+  padding-bottom: $space-md;
+  overflow-x: hidden;
+  transition: all .5s $easeOutCubic;
+
+  @include media-query(md) {
+    margin-bottom: 22em;
+  }
+  @include media-query(lg) {
+    margin-bottom: 20em;
+  }
+}

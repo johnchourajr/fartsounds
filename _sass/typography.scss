@@ -1,0 +1,186 @@
+.post-body, .page-body {
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre {
+    margin-bottom: 1em;
+  }
+}
+
+.post-content {
+  position: relative;
+  z-index: 8888;
+  p {
+    // font-family: $sans;
+    line-height: 1.75;
+    font-size: 1.1em;
+    letter-spacing: .02em;
+
+    &.text-1, &.text-2, &.text-3 {
+      font-weight: 600;
+    }
+  }
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $space-1 / 2;
+}
+
+em {
+}
+
+del {
+  opacity: .12;
+}
+/**
+ * Headings
+ */
+h1, h2, {
+  font-weight: 700;
+  font-family: $sans;
+  letter-spacing: 0;
+  line-height: 1.35;
+  z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  a {
+    text-decoration: underline;
+  }
+}
+
+h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+
+.display {
+
+  &-1 {
+    font-size: ($display-1 * .525);
+    line-height: $line-height-1;
+    @include media-query(sm) {
+      font-size: ($display-1 * .75);
+    }
+    @include media-query(md) {
+      font-size: $display-1;
+    }
+  }
+
+  &-2 {
+    font-size: ($display-2 * .5);
+    line-height: $line-height-2;
+    @include media-query(sm) {
+      font-size: ($display-2 * .75);
+    }
+    @include media-query(md) {
+      font-size: $display-2;
+    }
+  }
+
+  &-3 {
+    font-size: ($display-3 * .5);
+    line-height: $line-height-3;
+    @include media-query(sm) {
+      font-size: ($display-3 * .75);
+    }
+    @include media-query(md) {
+      font-size: $display-3;
+    }
+  }
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: $text-black;
+  text-decoration: none;
+  transition: color .2s $easeOutCubic;
+
+  &:visited {
+    color: darken($text-black, 15%);
+  }
+
+  &:hover {
+    color: $text-black;
+    text-decoration: underline;
+
+    .underline {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $fill-black;
+  font-size: ($text-1 * .75);
+  font-weight: bold;
+
+  & > p {
+    text-indent: -0.4em;
+    line-height: $line-height-1 !important;
+
+    > strong {
+      font-size: 30%;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid $fill-gray-lighter;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.eye-brow {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}

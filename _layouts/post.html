@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="col md-col-8 md-offset-2">
+  <div class="">
+    <div class="">
+    	{% for category in page.categories %}
+      	<span class="">{{ category }}</span>
+      {% endfor %}
+    </div>
+    <div class="">
+      <span>{{ page.date | date: "%-d %b %Y" }}</span>
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+  <div class="">
+  	{{ content }}
+  </div>
+  <div class="">
+    {% include comments.html %}
+  </div>
+</div>
