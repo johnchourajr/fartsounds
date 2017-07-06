@@ -22,7 +22,6 @@ post_dirs: false
 host: jchoura-mbp.local
 port: 4444
 markdown: kramdown
-theme: minima
 gems:
 - jekyll-feed
 exclude:
