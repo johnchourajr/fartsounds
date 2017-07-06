@@ -1,11 +1,11 @@
 ---
+title: The Return of Fart Sounds
+date: 2017-06-29 07:05:24 Z
+permalink: "/the-return"
 layout: post
-title:  "The Return of Fart Sounds"
 episode: 1
-duration: "11:25"
+duration: '11:25'
 soundcloud_id: 331805839
-permalink: /the-return
-date:   2017-06-29 00:05:24 -0700
 gplay_share: https://play.google.com/music/m/Dorawfe4t3ul5oywtgmdidufwca?t=The_Return_of_Fart_Sounds-Fart_Sounds
 soundcloud_share: https://soundcloud.com/fart-sounds-show/the-return-of-fart-sounds
 ---

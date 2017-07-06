@@ -1,11 +1,11 @@
 ---
+title: Dude Giggles
+date: 2017-06-30 07:34:24 Z
+permalink: "/dude-giggles"
 layout: post
-title:  "Dude Giggles"
 episode: 3
-duration: "12:44"
+duration: '12:44'
 soundcloud_id: 331806093
-permalink: /dude-giggles
-date:   2017-06-30 00:34:24 -0700
 gplay_share: https://play.google.com/music/m/Dw4ndd5ejjshjym5sdeljxxssya?t=Dude_Giggles-Fart_Sounds
 soundcloud_share: https://soundcloud.com/fart-sounds-show/dude-giggles
 ---

@@ -1,6 +1,6 @@
 ---
+permalink: "/"
 layout: default
-permalink: /
 ---
 
 <section class="home-post">

@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Episodes
-permalink: /posts/
+permalink: "/posts/"
+layout: page
 ---
 
 {% for post in site.posts %}  

@@ -1,11 +1,11 @@
 ---
+title: Family Fart Sounds
+date: 2017-06-29 07:34:24 Z
+permalink: "/famliy-fart-sounds"
 layout: post
-title:  "Family Fart Sounds"
 episode: 2
-duration: "10:07"
+duration: '10:07'
 soundcloud_id: 331806089
-permalink: /famliy-fart-sounds
-date:   2017-06-29 00:34:24 -0700
 gplay_share: https://play.google.com/music/m/Dwd6gcpx4lewqcvfpocexshnslm?t=Family_Fart_Sounds-Fart_Sounds
 soundcloud_share: https://soundcloud.com/fart-sounds-show/family-fart-sounds
 ---
