@@ -16,7 +16,7 @@ defaults:
     permalink: "/:title/"
 email: hi@john.design
 description: Fart Sounds Podcast
-baseurl:
+baseurl: 
 permalink: pretty
 url: http://fartsounds.show
 post_dirs: false
