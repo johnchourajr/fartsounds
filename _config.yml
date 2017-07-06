@@ -8,10 +8,16 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/:title/"
 email: hi@john.design
 description: Fart Sounds Podcast
-baseurl: 
-url: 
+baseurl:
+url:
 post_dirs: false
 host: jchoura-mbp.local
 port: 4444
