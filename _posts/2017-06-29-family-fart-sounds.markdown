@@ -1,7 +1,7 @@
 ---
 title: Family Fart Sounds
 date: 2017-06-29 07:34:24 Z
-permalink: /famliy-fart-sounds/
+permalink: "/famliy-fart-sounds/"
 layout: post
 episode: 2
 duration: '10:07'
