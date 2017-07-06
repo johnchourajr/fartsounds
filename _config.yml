@@ -17,7 +17,7 @@ defaults:
 email: hi@john.design
 description: Fart Sounds Podcast
 baseurl:
-url:
+url: http://fartsounds.show
 post_dirs: false
 host: jchoura-mbp.local
 port: 4444
