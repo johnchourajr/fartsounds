@@ -15,7 +15,7 @@ defaults:
   values:
     permalink: "/:title/"
 email: hi@john.design
-description: Fart Sounds Podcast
+description: Fart Sounds with John Choura, The Podcast
 baseurl: 
 permalink: pretty
 url: http://fartsounds.show
