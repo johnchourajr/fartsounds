@@ -1,7 +1,7 @@
 ---
 title: Dude Giggles
 date: 2017-06-30 07:34:00 Z
-permalink: /dude-giggles/
+permalink: "/dude-giggles/"
 episode: 3
 duration: '12:44'
 soundcloud_id: 331806093

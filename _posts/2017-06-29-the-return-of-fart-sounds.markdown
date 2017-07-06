@@ -1,7 +1,7 @@
 ---
 title: The Return of Fart Sounds
 date: 2017-06-29 07:05:24 Z
-permalink: /the-return/
+permalink: "/the-return/"
 layout: post
 episode: 1
 duration: '11:25'
