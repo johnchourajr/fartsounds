@@ -4,7 +4,7 @@ title: Episodes
 permalink: /posts/
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts %}  
 
   {% include post-date-index.html %}
 

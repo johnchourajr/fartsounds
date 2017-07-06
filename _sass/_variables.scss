@@ -62,14 +62,15 @@ $z4: 400 !default;
 // Fills
 $fill-red:             #e32    !default;
 $fill-red-lighter:     #feebe9 !default;
-$fill-pink:            #f43192 !default;
+$fill-pink:            #F452FF !default;
+$fill-pink-lighter:    #FAF4FF !default;
 $fill-blue:            #0f65ef !default;
 $fill-purple:          #6645dd !default;
 $fill-yellow:          #ffee00 !default;
 $fill-yellow-lighter:  #fffab6 !default;
 $fill-teal:            #0dccb0 !default;
-$fill-green:           #68af15 !default;
-$fill-green-lighter:   #e1efd0 !default;
+$fill-green:           #3BFFD2 !default;
+$fill-green-lighter:   #F4FFFE !default;
 $fill-orange:          #f47f16 !default;
 $fill-promoted-orange: #f7ad19 !default;
 $fill-gray-lighter:    #f4f4f4 !default;
@@ -97,11 +98,13 @@ $text-gray:            #222    !default;
 $text-gray-lighter:    #666    !default;
 $text-gray-lightest:   #999    !default;
 $text-red:             #e32    !default;
-$text-pink:            #f43192 !default;
+$text-pink:            #F452FF !default;
+$text-pink-lighter:    #FAF4FF !default;
 $text-orange:          #f47f16 !default;
 $text-promoted-orange: #f7ad19 !default;
 $text-purple:          #6645dd !default;
-$text-green:           #68af15 !default;
+$text-green:           #3BFFD2 !default;
+$text-green-lighter:   #F4FFFE !default;
 $text-blue:            #0f65ef !default;
 
 // Social Type Colors
@@ -133,9 +136,9 @@ $base-font-weight: 700;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$display-1: 4em   !default; // 72px
-$display-2: 3em   !default; // 50px
-$display-3: 2.5em !default; // 44px
+$display-1: 4.25em   !default; // 72px
+$display-2: 3.5em   !default; // 50px
+$display-3: 2.75em !default; // 44px
 
 $text-1: 2.25em   !default; // 36px
 $text-2: 1.8em    !default; // 22px
@@ -152,8 +155,8 @@ $bold: 600    !default;
 // Using a unitless system for consistency.
 // https://css-tricks.com/almanac/properties/l/line-height/
 
-$line-height-1: 1.1 !default; // set on h1-h3 and .text-1-.text-3
-$line-height-2: 1.1 !default; // set on h4-h6 and .text-4-.text-6
+$line-height-1: 1.3 !default; // set on h1-h3 and .text-1-.text-3
+$line-height-2: 1.2 !default; // set on h4-h6 and .text-4-.text-6
 $line-height-3: 1.1 !default; // default line-height set on the body
 
 // Line heights specific to forms, buttons and tags.

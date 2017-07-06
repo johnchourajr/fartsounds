@@ -31,10 +31,24 @@ a {
   overflow-x: hidden;
   transition: all .5s $easeOutCubic;
 
-  @include media-query(md) {
-    margin-bottom: 22em;
+  .post-bottom {
+    @include media-query(md) {
+      padding-bottom: 22em;
+    }
+    @include media-query(lg) {
+      padding-bottom: 20em;
+    }
   }
-  @include media-query(lg) {
-    margin-bottom: 20em;
-  }
+}
+
+header {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+footer {
+  display: inline-block;
 }
