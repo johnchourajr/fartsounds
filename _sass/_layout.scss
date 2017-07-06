@@ -161,6 +161,10 @@ nav {
       @include media-query(sm) {
         padding: .65em 0;
         margin-right: 0;
+        margin-left: 3em;
+      }
+
+      @include media-query(md) {
         margin-left: 6.25em;
       }
 
