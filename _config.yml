@@ -9,9 +9,9 @@ collections:
     title: Uploads
     output: true
 email: hi@john.design
-description: 'Fart Sounds Podcast'
-baseurl:
-url:
+description: Fart Sounds Podcast
+baseurl: 
+url: 
 post_dirs: false
 host: jchoura-mbp.local
 port: 4444
