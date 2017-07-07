@@ -13,18 +13,17 @@ defaults:
     path: ''
     type: posts
   values:
-    title:
+    title: 
     permalink: "/:title/"
     layout: post
-    episode:
-    duration:
-    soundcloud_id:
-    gplay_share:
-    soundcloud_share:
-
+    episode: 
+    duration: 
+    soundcloud_id: 
+    gplay_share: 
+    soundcloud_share: 
 email: hi@john.design
 description: Fart Sounds with John Choura, The Podcast
-baseurl:
+baseurl: 
 permalink: pretty
 url: http://fartsounds.show
 post_dirs: false
