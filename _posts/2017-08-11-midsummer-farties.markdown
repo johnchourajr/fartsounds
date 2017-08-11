@@ -8,12 +8,12 @@ soundcloud_id: 337406387
 
 #### Show Segments:
 
-- ## Fart Sounds 014: The Wet
-Featuring: Wes Goedhart
-- ## Fart Sounds 015: The Pre Pooper + Bonus Deep Dive
-Featuring: Alex Choura (My Wife)
-- ## Fart Sounds 013: The Classic
-Featuring: Courtney Lara
+- ## Fart Sounds 017: Loud and Abrupt
+Featuring: REL
+- ## FartWordSounds 001: Flappy, Cannon Ball, Tommy Gun, Pop, Whiz
+Featuring: REL
+- ## Fart Sounds 016-1: Squeeeeeeeeek • Fart Sounds 16-2: The Gift That Keeps On Giving
+Featuring: Emma and Jimi Spatharos
 
 #### Credits:
 
